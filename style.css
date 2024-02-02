@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list, #main-header {
+    width: 500px;
+}
+
+ul {
+    background-color: #acacac;
+    height: auto;
+}
+
+#main-header {
+    background-color: black;
+    color: #ffffff;
+    text-indent: 30px;
+}
