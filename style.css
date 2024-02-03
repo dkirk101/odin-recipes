@@ -4,39 +4,58 @@ html {
 }
 
 *, *::before, *::after {
-    outline: 1px dashed rgb(228, 64, 64);
+/*     outline: 1px dashed rgb(228, 64, 64); */
     box-sizing: border-box;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    width: 800px;
+    margin: auto;
 }
 
 .list, #main-header {
-    width: 500px;
-    margin: 0px;
-    
+    padding: 10px;
 }
 
-ul {
-    background-color: #acacac;
+li {
+    /* background-color: #acacac; */
     height: auto;
     padding: 10px;
-    margin-left: 50px;
-
 }
 
 #main-header {
     background-color: black;
     color: #ffffff;
-    text-indent: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 div {
     margin: 0px;
     padding: 0px;
+    /* width: 650px; */
 }
+
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    color: #eee;
+}
+
+.list {
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+#recipes {
+    background-color: #acacac;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
