@@ -1,18 +1,37 @@
+
+* {
+    outline: 1px dashed rgb(228, 64, 64);
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .list, #main-header {
     width: 500px;
+    margin: 0px;
+    
 }
 
 ul {
     background-color: #acacac;
     height: auto;
+    padding: 10px;
+    margin-left: 50px;
+
 }
 
 #main-header {
     background-color: black;
     color: #ffffff;
     text-indent: 30px;
+}
+
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
 }
