@@ -1,6 +1,11 @@
 
-* {
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
     outline: 1px dashed rgb(228, 64, 64);
+    box-sizing: border-box;
 }
 
 body {
