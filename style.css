@@ -8,12 +8,20 @@ html {
     box-sizing: border-box;
 }
 
+.main-class {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    width: 250px;
+    margin: auto;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #eee;
     width: 800px;
     margin: auto;
 }
+
 
 .list, #main-header {
     padding: 10px;
@@ -43,10 +51,15 @@ div {
 
 a {
     text-decoration: none;
+    text-
 }
 
 a:hover {
     color: #eee;
+}
+
+a:visited{
+    color: blue;
 }
 
 .list {
