@@ -12,12 +12,14 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #eee;
     width: 250px;
-    margin: auto;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     width: 800px;
     margin: auto;
 }
@@ -51,14 +53,13 @@ div {
 
 a {
     text-decoration: none;
-    text-
 }
 
 a:hover {
     color: #eee;
 }
 
-a:visited{
+a:visited {
     color: blue;
 }
 
